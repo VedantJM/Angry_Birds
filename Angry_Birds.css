@@ -1,0 +1,281 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+nav{
+    width:100%;
+    height:100px;
+}
+#brand_name{
+    float:left;
+    margin-top:15px;
+    margin-left:100px;
+    font-size:40px;
+    font-family: 'Oswald', sans-serif;
+}
+#ul1{
+    margin-left:900px;
+}
+.li1{
+    float:left;
+    list-style:none;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:23px;
+    border-bottom: 2px solid white;
+}
+.navbar:hover{
+    background-color:black;
+    color:white;
+    cursor:pointer;
+}
+#landing{
+    /* position:absolute; */
+    width:100%;
+    height:1300px;
+    background-image:url(https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fgames%2Ffiles%2F2015%2F07%2FAngry-Birds-2.jpg);
+    background-size:cover;
+    background-position:center;
+    
+}
+.button{
+    background-color:#FFEC00;
+    margin-left:1100px;
+    margin-top:900px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border:none;
+    border-radius:8px;
+    text-align:center;
+    display:flex;
+    justify-content: space-evenly;
+    padding:15px 25px;
+    position:absolute;
+}
+#download_now:hover{
+    cursor:pointer;
+    background-color:rgb(204, 204, 21);
+}
+#img1{
+    width:30px;
+    height:30px;
+    opacity:1;
+    margin-top:5px;
+}
+#img2{
+    width:30px;
+    height:30px;  
+    opacity:0;
+    margin-top:5px;
+}
+#download_now:hover > #img2{
+    transition:0.5s;
+    opacity:1;
+    
+}
+#download_now:hover > #img1{
+    transition:0.5s;
+    opacity:0;
+    
+}
+#landing2{
+    width:100%;
+    height:1300px;
+    background-image:url(https://i.ytimg.com/vi/LaMFpQ7lEr8/maxresdefault.jpg);
+    background-size:cover;
+    background-position:center;
+}
+#play_now:hover{
+    cursor:pointer;
+    background-color:rgb(204, 204, 21);
+}
+#play_now:hover > #img2{
+    transition:0.5s;
+    opacity:1;
+    
+}
+#play_now:hover > #img1{
+    transition:0.5s;
+    opacity:0;
+    }
+#landing3{
+    width:100%;
+    height:1350px;
+    background-image:url(https://hdwallsource.com/img/2014/4/angry-birds-wallpaper-13225-13635-hd-wallpapers.jpg);
+    background-size:cover;
+    background-position:center;
+}
+#cards{
+    width:75%;
+    height:90%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items:center;
+}
+.small_box{
+    width:350px;
+    height:600px;
+    margin:0px 25px 0px 25px;
+    margin-bottom:50px;
+}
+.birds{
+    width:300px;
+    height:300px;
+    margin-left:30px;
+    margin-top:20px;
+    border-radius:50px;
+}
+.birds:hover{
+    transition:0.3s;
+    transform:scale(1.1)
+}
+.heading{
+    color:yellow;
+    font-family: 'Oswald', sans-serif;
+    position:center;
+    text-align:center;
+    margin-top:20px;
+    font-style:italic;
+}
+.details{
+    font-size:18px;
+    color:white;
+    text-align:center;
+    margin-top:10px;
+}
+.read_more{
+    font-weight:400;
+    text-decoration:none;
+    font-size:16px;
+    color:#b61613;
+    margin-left:145px;
+}
+.game_button{
+    background-color:#FFEC00;
+    border:none;
+    border-radius:8px;
+    text-align:center;
+    display:flex;
+    justify-content: space-evenly;
+    padding:15px 25px;
+    /* position:absolute; */
+    outline:none;
+    margin-left:95px;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+.arrow_left{
+    width:20px;
+    height:20px;
+    opacity:1;
+}
+.arrow_right{
+    width:20px;
+    height:20px;
+    opacity:0;
+}
+.game_button:hover > .arrow_left{
+    opacity:0;
+    transition:0.3s;
+}
+.game_button:hover > .arrow_right{
+    opacity:1;
+    transition:0.3s;
+}
+#overlay{
+    width:100%;
+    height:100%;
+    background-color:rgba(0, 0, 0, 0.658);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.navbar{
+    min-width:100px;
+    height:100px;
+    float:left;
+    margin-left:50px;
+    padding: 25px 17px 25px 20px;
+}
+#social_icons{
+    width:350px;
+    height:100px;
+    float:left;
+    margin-left:550px;
+}
+.icons{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background-color:rgb(255, 251, 0);
+    float:left;
+    margin-left:25px;
+    background-size:cover;
+    background-position:center;
+    margin-top:15px;
+    cursor:pointer;
+}
+#facebook{
+    background-image:url(../Images/facebook.png.png);
+}
+#twitter{
+    background-image:url(../Images/twitter\ \(1\).png\ \(1\).png);
+}
+#youtube{
+    background-image:url(../Images/youtube1.png.png);
+}
+#instagram{
+    background-image:url(../Images/instagram-sketched.png.png);
+}
+
+#landing4{
+    background-image:url(../Images/Screen\ Shot\ 2020-08-26\ at\ 11.31.23.png);
+    width:100%;
+    height:600px;
+    background-position:center;
+    background-size:cover;
+}
+#landing5{
+    background-color: black;
+    width:100%;
+    height:450px;
+    position:absolute;
+}
+#nav2{
+    width:100%;
+    height:80px;
+    color:white;
+}
+#ul2{
+    margin-left:950px;
+    margin-top:50px;
+
+}
+.li2{
+    float:left;
+    margin-left:25px;
+    list-style-type:none;
+    font-size:23px;
+    font-weight:400;
+}
+.li2:hover{
+    cursor:pointer;
+    transform:scale(1.05);
+    transition:0.3s;
+}
+#social_icons2{
+    width:350px;
+    height:100px;
+    float:left;
+    margin-left:1050px;
+}
+#rovio{
+    width:500px;
+    height:150px;
+    margin-left:1000px;
+}
+
+
+
+/* angrybirds.com */
